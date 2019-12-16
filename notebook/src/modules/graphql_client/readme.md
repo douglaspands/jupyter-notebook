@@ -7,8 +7,5 @@ sincronas e assincronas.
 ## Dependencias
 
 ```
-aiohttp==3.5.4
+requests
 ```
-
-## Como Usar (sincrono)
-Em desenvolvimento
