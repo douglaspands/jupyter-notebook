@@ -1,20 +1,32 @@
 # Jupyter Notebook
 
+Jupyter notebook pessoal com algumas experiencias e testes.
+
+## Requisitos
+
+- >= Python3.6
+- Pip
+- Poetry
+
 ## Instalação Padrão
 
 ```shell
 poetry install
 ```
 
+## Instalar extensões (RECOMENDADO)
 ```shell
 poetry run install_extensions
 ```
 
-## Gerar requirements.txt
+## Iniciar Jupyter
 
-```bash
-poetry export -f requirements.txt > requirements.txt
+```shell
+poetry run start
 ```
 
-> Sempre é aconselhavel utilizar um ambiente virtual para o Python3. Ex.: `virtualenv`.
+## Gerar requirements.txt
 
+```shell
+poetry export -f requirements.txt > requirements.txt
+```
