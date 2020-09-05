@@ -4,7 +4,7 @@ Jupyter notebook pessoal com algumas experiencias e testes.
 
 ## Requisitos
 
-- >= Python3.6
+- Python (preferência ao 3.8)
 - Pip
 - Poetry
 
@@ -25,7 +25,7 @@ poetry run install_extensions
 poetry run start
 ```
 
-## Gerar requirements.txt
+## Gerar requirements.txt (Opcional)
 
 ```shell
 poetry export -f requirements.txt > requirements.txt
