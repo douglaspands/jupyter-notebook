@@ -12,4 +12,4 @@ else:
     BINARY_LOCATION = r'/usr/bin/google-chrome'
     DRIVER = os.path.abspath(os.path.join(os.path.dirname(__file__), 'chromedriver'))
 
-DOWNLOAD_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../..', 'files'))
+DOWNLOAD_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../..', 'files'))

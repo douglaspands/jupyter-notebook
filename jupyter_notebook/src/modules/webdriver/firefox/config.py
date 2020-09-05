@@ -12,7 +12,7 @@ else:
     BINARY_LOCATION = r'/usr/bin/firefox'
     DRIVER = os.path.abspath(os.path.join(os.path.dirname(__file__), 'geckodriver'))
 
-DOWNLOAD_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../..', 'files'))
+DOWNLOAD_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../..', 'files'))
 
 FILES_ACCEPT_DOWNLOAD = ','.join([
     'application/pdf',
