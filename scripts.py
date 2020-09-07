@@ -13,4 +13,4 @@ def install_extensions():
     check_call(['jupyter', 'contrib', 'nbextension', 'install', '--user'])
 
 def start():
-    check_call(['jupyter', 'notebook', '--notebook-dir="{0}"'.format(os.path.join(ROOT, SOURCE_FOLDER, 'notebook'))])
+    check_call(['jupyter', 'notebook', '--notebook-dir={0}'.format(os.path.join(ROOT, SOURCE_FOLDER, 'notebook'))])
