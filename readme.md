@@ -30,3 +30,7 @@ poetry run start
 ```shell
 poetry export -f requirements.txt > requirements.txt
 ```
+
+## Extensões padrões
+
+![preferencia_extensoes_ativas](./preferencia_extensoes_ativas.png)
