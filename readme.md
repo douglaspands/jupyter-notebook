@@ -5,7 +5,6 @@ Jupyter notebook pessoal com algumas experiencias e testes.
 ## Requisitos
 
 - Python (preferência ao 3.8)
-- Pip
 - Poetry
 
 ## Instalação Padrão
