@@ -30,6 +30,6 @@ poetry run start
 poetry export -f requirements.txt > requirements.txt
 ```
 
-## Extensões padrões
+## Extensões ativas (RECOMENDADAS)
 
 ![preferencia_extensoes_ativas](./preferencia_extensoes_ativas.png)
