@@ -13,9 +13,9 @@ Jupyter notebook pessoal com algumas experiencias e testes.
 poetry install
 ```
 
-## Instalar extensões (RECOMENDADO)
+## Configurar extensões (RECOMENDADO)
 ```shell
-poetry run install_extensions
+poetry run config_extensions
 ```
 
 ## Iniciar Jupyter
@@ -27,7 +27,7 @@ poetry run start
 ## Gerar requirements.txt (Opcional)
 
 ```shell
-poetry export -f requirements.txt > requirements.txt
+poetry run requirements_gen
 ```
 
 ## Extensões ativas (RECOMENDADAS)
