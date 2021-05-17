@@ -1,61 +1,35 @@
 # Jupyter Notebook
 
+Jupyter notebook pessoal com algumas experiencias e testes.
+
+## Requisitos
+
+- Python (preferência ao 3.8)
+- Poetry
+
 ## Instalação Padrão
 
 ```shell
-pip install jupyter matplotlib autopep8 nest_asyncio jupyter_contrib_nbextensions
+poetry install
 ```
+
+## Configurar extensões (RECOMENDADO)
 ```shell
-jupyter contrib nbextension install --user
+poetry run config_extensions
 ```
-> Sempre é aconselhavel utilizar um ambiente virtual para o Python3. Ex.: `virtualenv`.
 
-## Configurações Iniciais
-```shell
-jupyter notebook --generate-config
-```
-Vai gerar um arquivo de configurações, para personalizar caso seja necessario.
-
-## Acesso a modulos compartilhados
-Dentro do Jupyter Notebook
-```
-import os, sys,
-sys.path.insert(0, os.path.abspath('./src'))
-```
-## Extras
-
-Caso necessite usar funções `async` (utilizando o event loop), é necessario importar um modulo com um patch do  **Jupyter** antes dentro do `notebook`:
+## Iniciar Jupyter
 
 ```shell
-import nest_asyncio
-nest_asyncio.apply()
+poetry run start
 ```
 
-## Modulos Importantes
+## Gerar requirements.txt (Opcional)
 
 ```shell
-pip install pydash requests graphqlclient pandas beautifulsoup4 selenium boto3
+poetry run requirements_gen
 ```
 
-## Modulos Extras
+## Extensões ativas (RECOMENDADAS)
 
-### NLP
-
-```shell
-pip install wordcloud nltk seaborn
-```
-```shell
-python -m nltk.downloader averaged_perceptron_tagger floresta mac_morpho machado punkt stopwords wordnet words
-```
-
-### Whatsapp
-
-```shell
-pip install twilio
-```
-
-## PIP - Atualização de Modulos
-
-```shell
-pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
-```
+![preferencia_extensoes_ativas](./preferencia_extensoes_ativas.png)

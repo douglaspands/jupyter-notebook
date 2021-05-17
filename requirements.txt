@@ -1,9 +1,0 @@
-jupyter
-matplotlib
-autopep8
-jupyter_contrib_nbextensions
-pydash
-requests
-pandas
-wordcloud
-seaborn

@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "jupyter-notebook"
+version = "1.1.0"
+description = "Jupyter Notebook."
+authors = ["Douglas Panhota <douglaspands@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.3.1"
+autopep8 = "^1.5.4"
+jupyter_contrib_nbextensions = "^0.5.1"
+pydash = "^4.8.0"
+requests = "^2.24.0"
+pandas = "^1.1.1"
+wordcloud = "^1.8.0"
+seaborn = "^0.10.1"
+selenium = "^3.141.0"
+pony = "^0.7.13"
+lxml = "^4.5.2"
+beautifulsoup4 = "^4.9.1"
+jupyterlab = "^2.2.7"
+pyPDF2 = "^1.26.0"
+Pillow = "^7.2.0"
+PyMuPDF = "^1.17.6"
+numpy = "^1.19.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+start = "scripts:start"
+config_extensions = "scripts:config_extensions"
+create_script_shell = "scripts:create_script_shell"
+requirements_gen = "scripts:requirements_gen"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
