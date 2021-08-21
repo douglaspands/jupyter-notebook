@@ -135,3 +135,7 @@ dmypy.json
 # Temporaly files
 **/files/
 !**/files/.keep
+
+# Project files
+*private*
+*privado*
