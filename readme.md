@@ -1,35 +1,39 @@
 # Jupyter Notebook
-
 Jupyter notebook pessoal com algumas experiencias e testes.
 
 ## Requisitos
+- [Python](https://www.python.org/) (foi utilizado a versão `3.8.10`)
+- [Poetry](https://python-poetry.org/)
 
-- Python (preferência ao 3.8)
-- Poetry
-
-## Instalação Padrão
-
+## Como usar
+1. Instalar as dependencias:
 ```shell
 poetry install
 ```
 
-## Configurar extensões (RECOMENDADO)
+2. Instalar e configurar extensões do `Jupyter Classic`:
 ```shell
-poetry run config_extensions
+poetry run install_extensions
 ```
 
-## Iniciar Jupyter
-
+3. Iniciar o Jupyter:
 ```shell
 poetry run start
 ```
 
-## Gerar requirements.txt (Opcional)
+4. Acessar url descrito no terminal (conforme exemplo abaixo):
+![jupyter_endpoint](./docs/images/jupyter_endpoint.png)
+
+5. Alternar para o modo Classic:
+![modo_classic](./docs/images/ativar_modo_classic.png)
+
+6. Ativas extensões do `Jupyter Classic` recomendado conforme na imagem abaixo:
+![preferencia_extensoes_ativas](./docs/images/preferencia_extensoes_ativas.png)
+
+## Opcionais
+
+1. Gerar requirements.txt:
 
 ```shell
-poetry run requirements_gen
+poetry run requirements
 ```
-
-## Extensões ativas (RECOMENDADAS)
-
-![preferencia_extensoes_ativas](./preferencia_extensoes_ativas.png)
